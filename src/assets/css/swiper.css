@@ -71,3 +71,16 @@
 #cestas .swiper .swiper-button-next{
   right: -40px;
 }
+
+@media (max-width: 768px){
+  #cestas .swiper .swiper-button-prev{
+    left: 0px;
+  }
+  #cestas .swiper .swiper-button-next{
+    right: 0px;
+  }
+
+  #cestas .swiper .swiper-button-prev{
+    font-size: 25px;
+  }
+}
