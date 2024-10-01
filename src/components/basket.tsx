@@ -70,7 +70,7 @@ const Basket = () => {
 
     const divRef = useRef<HTMLDivElement | null>(null);
 
-    
+
 
     const handleScroll = () => {
 
@@ -209,32 +209,37 @@ const Basket = () => {
                                         <p className='font-bold text-5xl'>M</p>
                                         <p className='font-bold text-5xl'>G</p>
                                     </div>
-                                    <img src={basket25} alt="" className="w-[1040px] m-auto" />
+                                    <SlideshowLightbox theme="lightbox">
+                                        <img src={basket25} alt="" className="w-[1040px] m-auto" />
+                                    </SlideshowLightbox>
 
 
-                                    <div className='grid grid-cols-2 mt-10 gap-5 '>
+                                    <SlideshowLightbox className='grid grid-cols-2 mt-20 gap-5' theme="lightbox">
                                         <img src={basket26} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket27} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket28} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket29} alt="" className="w-[400px]  m-auto" />
-                                    </div>
+                                    </SlideshowLightbox>
 
 
-                                    <div className='grid grid-cols-2 mt-20 gap-5'>
+
+                                    <SlideshowLightbox className='grid grid-cols-2 mt-20 gap-5' theme="lightbox">
                                         <img src={basket30} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket31} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket32} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket33} alt="" className="w-[400px]  m-auto" />
-                                    </div>
+                                    </SlideshowLightbox>
 
-                                    <div className='grid grid-cols-3 mt-20 gap-5'>
+
+                                    <SlideshowLightbox className='grid grid-cols-2 mt-20 gap-5' theme="lightbox">
                                         <img src={basket34} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket35} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket36} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket37} alt="" className="w-[400px]  m-auto" />
                                         <img src={basket38} alt="" className="w-[400px] m-auto" />
                                         <img src={basket39} alt="" className="w-[400px] m-auto" />
-                                    </div>
+                                    </SlideshowLightbox>
+
                                 </div>
                             </SwiperSlide>
 
