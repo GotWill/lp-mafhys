@@ -1,4 +1,4 @@
-import Logo from '../assets/logo/logo-bt.png'
+import Logo from '../assets/images/logo/logo-bt.png'
 import Tel from '../assets/images/icons/tel.svg'
 import Whats from '../assets/images/icons/whats.svg'
 import Mail from '../assets/images/icons/mail.svg'

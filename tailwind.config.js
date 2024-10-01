@@ -57,10 +57,10 @@ export default {
 				}
 			},
 		  backgroundImage: {
-				'hero': "url('../src/assets/hero-welcome.png')",
-				'about': "url('../src/assets/about.png')",
-				'about-2': "url('../src/assets/about-2.png')",
-				'faq': "url('../src/assets/faq.png')",
+				'hero': "url('../src/assets/images/banners/hero-welcome.png')",
+				'about': "url('../src/assets/images/banners/about.png')",
+				'about-2': "url('../src/assets/images/banners/about-2.png')",
+				'faq': "url('../src/assets/images/banners/faq.png')",
 
 			},
 		}

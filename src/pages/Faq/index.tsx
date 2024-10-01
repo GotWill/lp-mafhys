@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo/faq.png'
+import Logo from '../../assets/images/logo/faq.png'
 
 const Faq = () => {
     return (

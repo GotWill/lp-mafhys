@@ -1,5 +1,5 @@
-import model1 from '../assets/model-parties/1.png'
-import model2 from '../assets/model-parties/2.png'
+import model1 from '../assets/images/model-parties/1.png'
+import model2 from '../assets/images/model-parties/2.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

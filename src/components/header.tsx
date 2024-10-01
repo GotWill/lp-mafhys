@@ -1,10 +1,10 @@
-import Insta from '../assets/insta.svg'
-import Whats from '../assets/whats.svg'
-import Logo from '../assets/logo.png'
+import Insta from '../assets/images/icons/insta.svg'
+import Whats from '../assets/images/icons/whats.svg'
+import Logo from '../assets/images/logo/logo.png'
 import NavLink from './nav-link';
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from './ui/sheet';
 import { Menu } from 'lucide-react';
-import LogoSheet from '../assets/logo/logo-2.png'
+import LogoSheet from '../assets/images/logo/logo-2.png'
 
 const Header = () => {
     return (
