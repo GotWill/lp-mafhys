@@ -126,7 +126,7 @@ const Basket = () => {
                             navigation={true}
                             className="mySwiper"
                         >
-                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16'>
+                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16 max-md:px-4'>
 
                                 <div className='flex items-center mb-20 max-md:mb-8'>
                                     <div className='max-md:text-xs max-md:text-center max-md:w-[295px] bg-secondary_web p-3  w-[485px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
@@ -145,7 +145,7 @@ const Basket = () => {
                                 </SlideshowLightbox >
                             </SwiperSlide>
 
-                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16'>
+                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16 max-md:px-4'>
                                 <div className='flex items-center mb-20 max-md:mb-8'>
                                     <div className='text-center max-md:text-xs max-md:w-[245px] bg-secondary_web p-3  w-[485px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
                                         CESTA DE PALHA COM ALÇA
@@ -161,7 +161,7 @@ const Basket = () => {
                                     <img src={basket12} alt="" className="w-[400px]" />
                                 </SlideshowLightbox>
                             </SwiperSlide>
-                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16'>
+                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16 max-md:px-4'>
                                 <div className='flex items-center mb-20 max-md:mb-8'>
                                     <div className='text-center max-md:text-xs max-md:w-[295px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
                                         CESTA TAMANHO MÉDIO DE MADEIRA
@@ -177,7 +177,7 @@ const Basket = () => {
                                     <img src={basket18} alt="" className="w-[400px]" />
                                 </SlideshowLightbox>
                             </SwiperSlide>
-                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16'>
+                            <SwiperSlide className='flex flex-col bg-[#F1F2F2] py-16 max-md:px-4'>
                                 <div className='flex items-center mb-20 max-md:mb-8'>
                                     <div className='text-center max-md:text-xs  max-md:w-[200px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
                                         CESTA VERDE DE TECIDO
@@ -193,17 +193,17 @@ const Basket = () => {
                                     <img src={basket24} alt="" className="w-[400px]" />
                                 </SlideshowLightbox>
                             </SwiperSlide>
-                            <SwiperSlide className='flex flex-col h-[800px] bg-[#F1F2F2] max-w-[1400px] m-auto'>
+                            <SwiperSlide className='flex flex-col  bg-[#F1F2F2] max-w-[1400px] m-auto py-16 max-md:px-4'>
                                 <div className='flex items-baseline gap-10 max-md:flex-col-reverse max-md:gap-0 max-md:items-center'>
                                     <div className='font-bold text-5xl'>{weight}</div>
                                     <div className='flex items-center mb-20 max-md:mb-8'>
                                         <div className='text-center max-md:text-xs max-md:w-[250px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
-                                            {title}
+                                            CESTAS MADEIRA CINZA P, M e G
                                         </div>
                                         <div className='bg-paragrafh text-white font-bold w-[56px] h-[56px] rounded-full flex justify-center items-center text-[40px] -ml-4 z-10 max-md:w-[44px] max-md:h-[44px] max-md:text-xl'>5</div>
                                     </div>
                                 </div>
-                                <div className='max-h-[440px] overflow-auto pr-5' onScroll={handleScroll} ref={divRef}>
+                                <div className='max-h-[440px] overflow-auto pr-5'>
                                     <div className='flex justify-around max-w-[700px] m-auto mb-5'>
                                         <p className='font-bold text-5xl'>P</p>
                                         <p className='font-bold text-5xl'>M</p>
@@ -212,35 +212,60 @@ const Basket = () => {
                                     <SlideshowLightbox theme="lightbox">
                                         <img src={basket25} alt="" className="w-[1040px] m-auto" />
                                     </SlideshowLightbox>
-
-
-                                    <SlideshowLightbox className='grid grid-cols-2 mt-20 gap-5' theme="lightbox">
-                                        <img src={basket26} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket27} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket28} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket29} alt="" className="w-[400px]  m-auto" />
-                                    </SlideshowLightbox>
-
-
-
-                                    <SlideshowLightbox className='grid grid-cols-2 mt-20 gap-5' theme="lightbox">
-                                        <img src={basket30} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket31} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket32} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket33} alt="" className="w-[400px]  m-auto" />
-                                    </SlideshowLightbox>
-
-
-                                    <SlideshowLightbox className='grid grid-cols-2 mt-20 gap-5' theme="lightbox">
-                                        <img src={basket34} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket35} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket36} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket37} alt="" className="w-[400px]  m-auto" />
-                                        <img src={basket38} alt="" className="w-[400px] m-auto" />
-                                        <img src={basket39} alt="" className="w-[400px] m-auto" />
-                                    </SlideshowLightbox>
-
                                 </div>
+                            </SwiperSlide>
+                            <SwiperSlide className='flex flex-col  bg-[#F1F2F2] max-w-[1400px] m-auto py-16 max-md:px-4'>
+                                <div className='flex items-baseline gap-10 max-md:flex-col-reverse max-md:gap-0 max-md:items-center'>
+                                    <div className='flex items-center mb-20 max-md:mb-8'>
+                                        <div className='text-center max-md:text-xs max-md:w-[250px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
+                                            CESTAS MADEIRA CINZA  P
+                                        </div>
+                                        <div className='bg-paragrafh text-white font-bold w-[56px] h-[56px] rounded-full flex justify-center items-center text-[40px] -ml-4 z-10 max-md:w-[44px] max-md:h-[44px] max-md:text-xl'>6</div>
+                                    </div>
+                                </div>
+
+                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-2' theme="lightbox">
+                                    <img src={basket26} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket27} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket28} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket29} alt="" className="w-[400px]  m-auto" />
+                                </SlideshowLightbox>
+                            </SwiperSlide>
+                            <SwiperSlide className='flex flex-col  bg-[#F1F2F2] max-w-[1400px] m-auto py-16 max-md:px-4'>
+                                <div className='flex items-baseline gap-10 max-md:flex-col-reverse max-md:gap-0 max-md:items-center'>
+                                    <div className='flex items-center mb-20 max-md:mb-8'>
+                                        <div className='text-center max-md:text-xs max-md:w-[250px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
+                                            CESTAS MADEIRA CINZA  M
+                                        </div>
+                                        <div className='bg-paragrafh text-white font-bold w-[56px] h-[56px] rounded-full flex justify-center items-center text-[40px] -ml-4 z-10 max-md:w-[44px] max-md:h-[44px] max-md:text-xl'>7</div>
+                                    </div>
+                                </div>
+
+                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-2' theme="lightbox">
+                                    <img src={basket30} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket31} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket32} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket33} alt="" className="w-[400px]  m-auto" />
+                                </SlideshowLightbox>
+                            </SwiperSlide>
+                            <SwiperSlide className='flex flex-col  bg-[#F1F2F2] max-w-[1400px] m-auto py-16 max-md:px-4'>
+                                <div className='flex items-baseline gap-10 max-md:flex-col-reverse max-md:gap-0 max-md:items-center'>
+                                    <div className='flex items-center mb-20 max-md:mb-8'>
+                                        <div className='text-center max-md:text-xs max-md:w-[250px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
+                                            CESTAS MADEIRA CINZA G
+                                        </div>
+                                        <div className='bg-paragrafh text-white font-bold w-[56px] h-[56px] rounded-full flex justify-center items-center text-[40px] -ml-4 z-10 max-md:w-[44px] max-md:h-[44px] max-md:text-xl'>8</div>
+                                    </div>
+                                </div>
+
+                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-2' theme="lightbox">
+                                    <img src={basket34} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket35} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket36} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket37} alt="" className="w-[400px]  m-auto" />
+                                    <img src={basket38} alt="" className="w-[400px] m-auto" />
+                                    <img src={basket39} alt="" className="w-[400px] m-auto" />
+                                </SlideshowLightbox>
                             </SwiperSlide>
 
 

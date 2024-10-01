@@ -33,11 +33,11 @@ const Footer = () => {
                         <p className='text-paragrafh font-bold text-lg max-md:mt-[20px]'>Fale conosco</p>
 
                         <ul className='mt-[40px] space-y-4'>
-                            <li className='text-paragrafh font-bold text-lg'><a className='flex items-center gap-2 max-md:text-sm' href="">
-                                <img src={Tel} alt="" className='w-7' /> (11) 95687-9467</a></li>
+                            <li className='text-paragrafh font-bold text-lg'><span className='flex items-center gap-2 max-md:text-sm' href="">
+                                <img src={Tel} alt="" className='w-7' /> (11) 95687-9467</span></li>
                             <li className='text-paragrafh font-bold text-lg'><a href="" className='flex items-center gap-2 max-md:text-sm'>
                                 <img src={Whats} alt="" className='w-7' /> (11) 95687-9467</a></li>
-                            <li className='text-paragrafh font-bold text-lg'><a href="" className='flex items-center gap-2 max-md:text-sm'>
+                            <li className='text-paragrafh font-bold text-lg'><a href="mailto:mafhysbestforpets@gmail.com" className='flex items-center gap-2 max-md:text-sm'>
                                 <img src={Mail} alt="" className='w-7' /> mafhysbestforpets@gmail.com</a></li>
                             <li className='text-paragrafh font-bold text-lg'><a href="" className='flex items-center gap-2 max-md:text-sm'>
                                 <img src={Map} alt="" className='w-7' /> São paulo - SP</a></li>
