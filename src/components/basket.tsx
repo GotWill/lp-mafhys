@@ -209,31 +209,31 @@ const Basket = () => {
                                         <p className='font-bold text-5xl'>M</p>
                                         <p className='font-bold text-5xl'>G</p>
                                     </div>
-                                    <img src={basket25} alt="" className="w-[1040px]" />
+                                    <img src={basket25} alt="" className="w-[1040px] m-auto" />
 
 
-                                    <div className='grid grid-cols-2 mt-10 gap-5'>
-                                        <img src={basket26} alt="" className="w-[400px]" />
-                                        <img src={basket27} alt="" className="w-[400px]" />
-                                        <img src={basket28} alt="" className="w-[400px]" />
-                                        <img src={basket29} alt="" className="w-[400px]" />
+                                    <div className='grid grid-cols-2 mt-10 gap-5 '>
+                                        <img src={basket26} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket27} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket28} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket29} alt="" className="w-[400px]  m-auto" />
                                     </div>
 
 
                                     <div className='grid grid-cols-2 mt-20 gap-5'>
-                                        <img src={basket30} alt="" className="w-[400px]" />
-                                        <img src={basket31} alt="" className="w-[400px]" />
-                                        <img src={basket32} alt="" className="w-[400px]" />
-                                        <img src={basket33} alt="" className="w-[400px]" />
+                                        <img src={basket30} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket31} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket32} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket33} alt="" className="w-[400px]  m-auto" />
                                     </div>
 
                                     <div className='grid grid-cols-3 mt-20 gap-5'>
-                                        <img src={basket34} alt="" className="w-[400px]" />
-                                        <img src={basket35} alt="" className="w-[400px]" />
-                                        <img src={basket36} alt="" className="w-[400px]" />
-                                        <img src={basket37} alt="" className="w-[400px]" />
-                                        <img src={basket38} alt="" className="w-[400px]" />
-                                        <img src={basket39} alt="" className="w-[400px]" />
+                                        <img src={basket34} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket35} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket36} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket37} alt="" className="w-[400px]  m-auto" />
+                                        <img src={basket38} alt="" className="w-[400px] m-auto" />
+                                        <img src={basket39} alt="" className="w-[400px] m-auto" />
                                     </div>
                                 </div>
                             </SwiperSlide>
