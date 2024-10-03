@@ -224,7 +224,7 @@ const Basket = () => {
                                     </div>
                                 </div>
 
-                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-2' theme="lightbox">
+                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-3 max-md:gap-4' theme="lightbox">
                                     <img src={basket26} alt="" className="w-[400px]  m-auto" />
                                     <img src={basket27} alt="" className="w-[400px]  m-auto" />
                                     <img src={basket28} alt="" className="w-[400px]  m-auto" />
@@ -241,7 +241,7 @@ const Basket = () => {
                                     </div>
                                 </div>
 
-                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-2' theme="lightbox">
+                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-3 max-md:gap-4' theme="lightbox">
                                     <img src={basket30} alt="" className="w-[400px]  m-auto" />
                                     <img src={basket31} alt="" className="w-[400px]  m-auto" />
                                     <img src={basket32} alt="" className="w-[400px]  m-auto" />
@@ -258,7 +258,7 @@ const Basket = () => {
                                     </div>
                                 </div>
 
-                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-2' theme="lightbox">
+                                <SlideshowLightbox className='grid grid-cols-3 gap-10 max-md:grid-cols-3 max-md:gap-4' theme="lightbox">
                                     <img src={basket34} alt="" className="w-[400px]  m-auto" />
                                     <img src={basket35} alt="" className="w-[400px]  m-auto" />
                                     <img src={basket36} alt="" className="w-[400px]  m-auto" />

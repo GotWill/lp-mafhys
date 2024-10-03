@@ -33,7 +33,7 @@ const Footer = () => {
                         <p className='text-paragrafh font-bold text-lg max-md:mt-[20px]'>Fale conosco</p>
 
                         <ul className='mt-[40px] space-y-4'>
-                            <li className='text-paragrafh font-bold text-lg'><span className='flex items-center gap-2 max-md:text-sm' href="">
+                            <li className='text-paragrafh font-bold text-lg'><span className='flex items-center gap-2 max-md:text-sm'>
                                 <img src={Tel} alt="" className='w-7' /> (11) 95687-9467</span></li>
                             <li className='text-paragrafh font-bold text-lg'><a href="" className='flex items-center gap-2 max-md:text-sm'>
                                 <img src={Whats} alt="" className='w-7' /> (11) 95687-9467</a></li>

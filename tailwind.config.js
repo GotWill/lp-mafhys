@@ -61,6 +61,10 @@ export default {
 				'about': "url('../src/assets/images/banners/about.png')",
 				'about-2': "url('../src/assets/images/banners/about-2.png')",
 				'faq': "url('../src/assets/images/banners/faq.png')",
+				'hero-mobol': "url('../src/assets/images/banners/hero-mobol.png')",
+				'about-mobol': "url('../src/assets/images/banners/about-mobol.png')",
+				'about-mobol-2': "url('../src/assets/images/banners/about-2-mobol.png')",
+
 
 			},
 		}
