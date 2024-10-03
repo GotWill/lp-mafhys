@@ -53,7 +53,6 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 import { SlideshowLightbox } from 'lightbox.js-react'
 import 'lightbox.js-react/dist/index.css'
-import { useState, useRef } from 'react'
 
 
 const Basket = () => {
@@ -65,38 +64,6 @@ const Basket = () => {
         },
     };
 
-    const [title, setTitle] = useState('CESTAS MADEIRA CINZA  P, M e G')
-    const [weight, setWeight] = useState('')
-
-    const divRef = useRef<HTMLDivElement | null>(null);
-
-
-
-    const handleScroll = () => {
-
-        if (!divRef.current) return;
-
-        const scrollTop = divRef.current.scrollTop; // Posição de rolagem
-        const maxScroll = divRef.current.scrollHeight - divRef.current.clientHeight;
-
-
-        if (scrollTop === 0) {
-            setWeight("")
-            setTitle("CESTAS MADEIRA CINZA P, M e G");
-        } else if (scrollTop < maxScroll / 3) {
-            setTitle("CESTAS MADEIRA CINZA  P");
-            setWeight('P')
-        } else if (scrollTop < (2 * maxScroll) / 3) {
-            setTitle("CESTAS MADEIRA CINZA  M");
-            setWeight('M')
-        } else {
-            setWeight("G")
-            setTitle("CESTAS MADEIRA CINZA  G");
-        }
-
-
-
-    };
 
     return (
         <section className='gradient_basket  pt-[51px] pb-[39px]' id='cestas'>
@@ -195,7 +162,6 @@ const Basket = () => {
                             </SwiperSlide>
                             <SwiperSlide className='flex flex-col  bg-[#F1F2F2] max-w-[1400px] m-auto py-16 max-md:px-4'>
                                 <div className='flex items-baseline gap-10 max-md:flex-col-reverse max-md:gap-0 max-md:items-center'>
-                                    <div className='font-bold text-5xl'>{weight}</div>
                                     <div className='flex items-center mb-20 max-md:mb-8'>
                                         <div className='text-center max-md:text-xs max-md:w-[250px] bg-secondary_web p-3  w-[495px] text-white font-bold rounded-full text-2xl relative after:absolute after:bg-white after:top-0 after:h-[52px] after:w-[20px] after:right-0 after:rounded-s-lg after:rounded-tl-[50px] after:rounded-bl-[50px] max-md:after:h-[44px]'>
                                             CESTAS MADEIRA CINZA P, M e G
